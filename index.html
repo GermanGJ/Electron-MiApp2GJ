@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MiApp 2GJ</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+  
+  </head>
+  <body>
+    <div class="row Col2GJMenu">
+        <div class="col-2">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link dark active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Principal</a>
+            <a class="nav-link" id="v-pills-CRest-tab" data-toggle="pill" href="#v-pills-CRest" role="tab" aria-controls="v-pills-CRest" aria-selected="false">OData</a>
+          </div>
+        </div>
+        <div class="col-10 Col2GJTarea" >
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">... TEXTO DE PRINCIPAL ...</div>
+            <div class="tab-pane fade" id="v-pills-CRest" role="tabpanel" aria-labelledby="v-pills-CRest-tab">... TEXTO DE OData ...</div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        window.jQuery = window.$ = require('jquery')
+      </script>
+      <!--<script src="./node_modules/jquery/dist/jquery.min.js"></script>-->
+      <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="./js/MiApp2GJ.js"></script>
+  </body>
+</html>
